@@ -1,0 +1,25 @@
+{
+  "name": "voosh-rag-backend",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "ingest": "node src/ingestData.js"
+  },
+  "dependencies": {
+    "@qdrant/js-client-rest": "^1.15.1",
+    "@qdrant/qdrant-js": "^1.15.1",
+    "axios": "^1.12.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2",
+    "openai": "^5.20.3",
+    "redis": "^4.7.1",
+    "rss-parser": "^3.12.0",
+    "uuid": "^9.0.1"
+  }
+}
