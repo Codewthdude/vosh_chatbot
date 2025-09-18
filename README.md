@@ -1,4 +1,5 @@
 # vosh_chatbot
+
 # Voosh RAG Backend + Frontend
 
 A **Retrieval-Augmented Generation (RAG) chatbot** project using **Qdrant**, **Redis**, and **Generative AI** (Google Gemini API). This project stores context in Redis, searches relevant knowledge from Qdrant, and generates responses using an LLM.
